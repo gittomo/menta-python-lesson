@@ -11,8 +11,8 @@
 number: int = 5
 text: str = "test"
 flag: bool = True
-test: None = None
-pi: float= 3.14
+test = None
+pi: float = 3.14
 
 #出力
 print("number:", number)
@@ -42,7 +42,7 @@ print("割った余り:", num1 % num2)
 
 even_flag: bool = False
 
-if(num1 + num2) %2 == 0 :
+if(num1 + num2) % 2 == 0 :
   even_flag = True
 
 # 4. 条件式
@@ -50,11 +50,9 @@ if(num1 + num2) %2 == 0 :
 # 偶数なら「偶数です」
 # 奇数なら「奇数です」
 
-
-if(num1 + num2) %2 == 0 :
   even_flag = True
 
 if(even_flag):
   print("偶数です")
 else:
-  print("奇数です。")
+  print("奇数です")
